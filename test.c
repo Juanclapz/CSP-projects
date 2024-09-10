@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 int main(void){
     prinft("hello world");
