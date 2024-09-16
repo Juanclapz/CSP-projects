@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "variable practice-c": "c",
-        "variablepractice.C": "cpp"
+        "variablepractice.C": "cpp",
+        "budget.C": "cpp"
     }
 }
