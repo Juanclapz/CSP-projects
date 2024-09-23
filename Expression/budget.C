@@ -17,7 +17,7 @@ int main(void){
    scanf("%f", &transportation);
    printf("How much are expenses?\n");
    scanf("%f", &expenses);
-   printf("Your expenses are: $%.2f\n, expenses");
+   printf("Your expenses are: %%.2f\n, expenses");
    expenses = rent + utilities + groceries + transportation;
    savings = income *.2;
    total = income - expenses - savings;
