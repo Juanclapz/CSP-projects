@@ -1,0 +1,5 @@
+name = input("Type a name: ")
+place = input("Typa a place: ")
+verb = input("Type a past tense verb: ")
+noun = input("Type a noun: ")
+print(name, "went to the",place, "where they",verb, "and bought a",noun,".")
