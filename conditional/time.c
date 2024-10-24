@@ -7,7 +7,6 @@ int hour;
 int main (){
     time_t rawtime;
     struct tm *now_tm;
-
     now = time(NULL);
     now_tm = localtime(&now);
     hour = now_tm->tm_hour;
