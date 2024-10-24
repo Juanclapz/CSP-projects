@@ -1,10 +1,11 @@
-
+def float(type):
+    return float(input (f"what is your {type}: "))
 print("Hello, and welcome to your financial calculator!\n")
-income=float(input("What is your monthly income: "))
-rent=float(input("What is your monthly rent: "))
-utilities=float(input("What is your monthly utilities: "))
-groceries=float(input("What is your monthly groceries: "))
-transportation=float(input("What is your monthly transportation costs: "))
+income=float(input("income cost"))
+rent=float(input("rent cost"))
+utilities=float(input("utilities cost "))
+groceries=float(input("groceries cost "))
+transportation=float(input("transportation costs"))
 savings = income *.2
 expenses = rent+utilities+groceries+transportation
 spending = income-expenses-savings
