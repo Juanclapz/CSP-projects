@@ -3,9 +3,7 @@
 
 time_t now;
 struct tm*timeinfo;
-
 int hour;
-
 int main (){
     time_t rawtime;
     struct tm *now_tm;
